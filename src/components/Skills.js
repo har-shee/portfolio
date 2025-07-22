@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const skills = [
   "HTML", "CSS", "Bootstrap", "Tailwind CSS",
-  "Angular", "React", 
+  "Angular", "React", "Node.js",
   "JavaScript", "TypeScript", "Python", "Java", "SQL",
   "MongoDB", "MySQL",
   "Git", "GitHub", "GitLab",

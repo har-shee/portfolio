@@ -12,7 +12,7 @@ const experiences = [
       ],
     },
     {
-      role: "Graduate Teaching Assistant (Python)",
+      role: "Graduate Teaching Assistant",
       company: "University of Kansas",
       duration: "Aug 2024 – May 2025",
       details: [

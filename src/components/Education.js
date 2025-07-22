@@ -5,11 +5,11 @@ const educationList = [
   {
     school: "University of Kansas",
     degree: "Master of Science in Computer Science",
-    duration: "Aug 2024 – Present",
+    duration: "Jan 2024 – Present",
     gpa: "4.0 / 4.0"
   },
   {
-    school: "SASTRA University",
+    school: "SASTRA Deemed to be University",
     degree: "Bachelor of Technology in Electronics and Communications Engineering",
     duration: "Jun 2017 – Jul 2021",
     gpa: "7.86 / 10.0"
