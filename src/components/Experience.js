@@ -2,46 +2,46 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const experiences = [
-  {
-    role: "Graduate Teaching Assistant (Math)",
-    company: "University of Kansas",
-    duration: "Jun 2025 – Present",
-    details: [
-      "Assisting 50+ students in understanding Python basics through lectures, labs, and personalized feedback.",
-      "Debugging student code and clarifying concepts like loops, functions, and file handling."
-    ],
-  },
-  {
-    role: "Graduate Teaching Assistant (Python)",
-    company: "University of Kansas",
-    duration: "Aug 2024 – May 2025",
-    details: [
-      "Assisting 50+ students in understanding Python basics through lectures, labs, and personalized feedback.",
-      "Debugging student code and clarifying concepts like loops, functions, and file handling."
-    ],
-  },
-  {
-    role: "Software Engineer",
-    company: "IDS Next Business Solutions",
-    duration: "Dec 2022 – Dec 2023",
-    details: [
-      "Developed and maintained UI for web apps using Angular, HTML, SCSS, and TypeScript.",
-      "Improved component reusability and ensured responsiveness across all devices.",
-      "Worked closely with the backend team to integrate REST APIs."
-    ],
-  },
-  {
-    role: "Programmer Analyst",
-    company: "Cognizant Technology Solutions",
-    duration: "Mar 2021 – Sep 2022",
-    details: [
-      "Developed and maintained UI for web apps using Angular, HTML, SCSS, and TypeScript.",
-      "Improved component reusability and ensured responsiveness across all devices.",
-      "Worked closely with the backend team to integrate REST APIs."
-    ],
-  }
-];
-
+    {
+      role: "Graduate Teaching Assistant (Math)",
+      company: "University of Kansas",
+      duration: "Jun 2025 – Present",
+      details: [
+        "Teaching undergraduate-level math courses, delivering lectures, and creating assessments in coordination with faculty.",
+    "Holding office hours and tutoring sessions to support students’ learning and clarify mathematical concepts."
+      ],
+    },
+    {
+      role: "Graduate Teaching Assistant (Python)",
+      company: "University of Kansas",
+      duration: "Aug 2024 – May 2025",
+      details: [
+        "Conducted weekly lab sessions for 50+ undergraduates in 'Introduction to Computing: Python'.",
+        "Guided students through coding assignments, clarified key concepts, and provided personalized feedback on Python fundamentals."
+      ],
+    },
+    {
+      role: "Software Engineer",
+      company: "IDS Next Business Solutions",
+      duration: "Dec 2022 – Dec 2023",
+      details: [
+        "Built user-centric interfaces for hospitality platforms (hotel booking, KOT, billing) using Angular, TypeScript, and SCSS.",
+        "Redesigned legacy features based on client requirements, improving functionality and reducing post-release issues.",
+        "Enabled multilingual support using Angular Pipes and collaborated cross-functionally to enhance usability and clarity.",
+      ],
+    },
+    {
+      role: "Programmer Analyst",
+      company: "Cognizant Technology Solutions",
+      duration: "Mar 2021 – Sep 2022",
+      details: [
+        "Created highly interactive UIs using React, JavaScript, and CSS to boost user engagement.",
+        "Automated 10,000+ test cases using Protractor, reducing smoke testing time from 6 hours to 30 minutes.",
+        "Resolved production bugs, contributed to daily standups, and participated in requirement walk-throughs with QA and development teams."
+      ],
+    }
+  ];
+  
 const fadeVariant = {
   hidden: { opacity: 0, y: 50 },
   visible: (i) => ({
