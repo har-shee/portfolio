@@ -52,7 +52,7 @@ const Hero = () => {
           transition={{ delay: 2.5, duration: 0.6 }}
         >
           <a
-            href="/BRH.pdf"
+            href="/RamyaHarshitha_Bolla.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition"
