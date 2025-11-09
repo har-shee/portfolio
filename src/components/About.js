@@ -26,10 +26,10 @@ const About = () => {
           Before diving into grad school, I worked as a Software Engineer for over 2.5 years where I built scalable, responsive web 
           applications using Angular, TypeScript, and modern UI practices.
           <br /><br />
-          Over the years, I've developed a knack for turning complex requirements into clean, usable interfaces. Whether it's integrating APIs, 
-          improving component reusability, or helping students learn Python code as a GTA, I enjoy both writing great code and making an impact.
+          
+          Over the years, I've developed a knack for turning complex requirements into clean, usable interfaces. Whether I’m integrating APIs, improving component architecture, or helping undergraduates grasp Python as a GTA, I find joy in both writing great code and making things easier for people. 
           <br /><br />
-          Outside of class and code, I love to paint and listen to music. I thrive in environments that mix structure with creativity, 
+          Beyond code, I love painting and listening to music.  I thrive in environments that mix structure with creativity, 
           and I’m always up for learning something new.
         </motion.p>
       </div>

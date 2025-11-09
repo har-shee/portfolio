@@ -3,16 +3,23 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
-        title: "ATAC-seq Workflow for Leukemia Analysis",
+        title: "AI-Powered Academic Assistant: Summarization and Question Answering​",
+        description:
+            "Developed an advanced academic assistant leveraging prompt engineering and the Gemini API for automated summarization and traceable Q&A without traditional NLP preprocessing. The workflow utilizes system prompts for intelligent virtual preprocessing, enabling structured multi-level summarization, keyword extraction, and contextual question-answering. The system supports various formats, with key innovations focused on shifting complex parsing logic into AI instructions and implementing document-grounded Q&A to accelerate literature review workflows while maintaining academic verifiability.",
+        tech: ["Gemini 2.5-Flash","Prompt Engineering","JavaScript","HTML/CSS","Tailwind CSS","jsPDF","Multi-Modal AI"],
+        link: "https://github.com/har-shee/AIAcademicAssistant.git"
+    }
+    ,{
+        title: "Identifying Chromatin Accessibility Changes in Leukemia using ATAC Sequencing",
         description:
             "Developed a fully automated and reproducible ATAC-seq analysis pipeline using Nextflow DSL2 to identify chromatin accessibility differences between leukemic (K562) and healthy (GM12878) human cell lines. The workflow includes quality control, adapter trimming, alignment (Bowtie2), peak calling (MACS2), differential accessibility analysis (DESeq2), gene annotation, and functional enrichment. Results are visualized with volcano plots, heatmaps, PCA, and pathway enrichment charts, highlighting key genes and pathways involved in leukemogenesis.",
         tech: ["Nextflow", "MACS2", "DESeq2", "Bowtie2", "FastQC", "Trim Galore", "IGV", "Bedtools", "R", "g:Profiler"],
         link: "https://github.com/har-shee/ChromatinAccessibilityLeukemiaATACSeq"
     },
     {
-        title: "Parallel Merge Sort with Load Balancing",
+        title: "Enhancing Parallel Merge Sort - Dynamic Load Balancing",
         description:
-            "Implemented histogram-based parallel merge sort in C++ using OpenMP, based on Jeon & Kim's algorithm. Conducted performance benchmarking on datasets up to 50 million elements with varying distributions (random, sorted, reversed, skewed). Demonstrated the strengths and limitations of histogram-based load balancing compared to dynamic and static partitioning methods.",
+            "Designed and implemented a dynamic load-balancing strategy for parallel merge sort to optimize thread utilization across skewed, reversed, and large-scale datasets (3M–50M elements). Leveraged real-time imbalance ratio monitoring and OpenMP task scheduling to redistribute workloads dynamically, reducing idle thread time and improving sorting performance. Achieved up to 2.4× speedup over standard parallel methods and 5.1× over sequential sort. Benchmarked performance across multiple data distributions, demonstrating superior scalability and robustness for high-performance computing applications.",
         tech: ["C++", "OpenMP"],
         link: "https://github.com/har-shee/LoadBalancingParallelMergeSortStrategy"
     },
