@@ -7,7 +7,7 @@ const projects = [
         description:
             "Developed an advanced academic assistant leveraging prompt engineering and the Gemini API for automated summarization and traceable Q&A without traditional NLP preprocessing. The workflow utilizes system prompts for intelligent virtual preprocessing, enabling structured multi-level summarization, keyword extraction, and contextual question-answering. The system supports various formats, with key innovations focused on shifting complex parsing logic into AI instructions and implementing document-grounded Q&A to accelerate literature review workflows while maintaining academic verifiability.",
         tech: ["Gemini 2.5-Flash","Prompt Engineering","JavaScript","HTML/CSS","Tailwind CSS","jsPDF","Multi-Modal AI"],
-        link: "https://github.com/har-shee/AIAcademicAssistant.git"
+        link: "https://ai-academic-assistant-eta.vercel.app/"
     }
     ,{
         title: "Identifying Chromatin Accessibility Changes in Leukemia using ATAC Sequencing",
